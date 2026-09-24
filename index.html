@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лендинг — БЭМ + Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">Logo</a>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero__container">
+            <h1 class="hero__title">Lorem ipsum dolor sit amet</h1>
+        </div>
+    </section>
+
+    <!-- SERVICES (3 карточки сверху) -->
+    <section class="services">
+        <div class="services__container">
+            <div class="services__list">
+                <article class="service-card">
+                    <div class="service-card__image"></div>
+                    <h3 class="service-card__title">Lorem ipsum</h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-card__image"></div>
+                    <h3 class="service-card__title">Lorem ipsum</h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-card__image"></div>
+                    <h3 class="service-card__title">Lorem ipsum</h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES (мини-блоки + полосы) -->
+    <section class="features">
+        <div class="features__container">
+            <div class="features__row">
+                <div class="features__mini-block"></div>
+                <div class="features__bar"></div>
+            </div>
+            <div class="features__row">
+                <div class="features__mini-block"></div>
+                <div class="features__bar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GRID: две колонки -->
+    <section class="grid">
+        <div class="grid__container">
+            <div class="grid__row">
+
+                <!-- Левая колонка: карточки с картинкой слева -->
+                <div class="grid__column grid__column--left">
+                    <article class="info-card info-card--horizontal">
+                        <div class="info-card__image"></div>
+                        <div class="info-card__content">
+                            <h3 class="info-card__title">Lorem ipsum</h3>
+                            <p class="info-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                        </div>
+                    </article>
+                    <article class="info-card info-card--horizontal">
+                        <div class="info-card__image"></div>
+                        <div class="info-card__content">
+                            <h3 class="info-card__title">Lorem ipsum</h3>
+                            <p class="info-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                        </div>
+                    </article>
+                    <article class="info-card info-card--horizontal">
+                        <div class="info-card__image"></div>
+                        <div class="info-card__content">
+                            <h3 class="info-card__title">Lorem ipsum</h3>
+                            <p class="info-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Правая колонка: карточки с заголовком сверху -->
+                <div class="grid__column grid__column--right">
+                    <article class="info-card info-card--vertical">
+                        <h3 class="info-card__title">Lorem ipsum</h3>
+                        <p class="info-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                    </article>
+                    <article class="info-card info-card--vertical">
+                        <h3 class="info-card__title">Lorem ipsum</h3>
+                        <p class="info-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                    </article>
+                    <article class="info-card info-card--vertical">
+                        <h3 class="info-card__title">Lorem ipsum</h3>
+                        <p class="info-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</p>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">© 2026 Lorem ipsum</p>
+        </div>
+    </footer>
+
+</body>
+</html>
